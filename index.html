@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Melhores Animes</title>
+</head>
+<body>
+    <main>
+        <section class="melhores_animes banner_anime">
+            <div class="container">
+                <div class="div_melhores">
+                    <h1>Melhores animes</h1>
+                    <p>Saiba qual é o melhor anime para assistir de cada categoria!</p>
+                </div>
+                
+                <div class="div_envio">
+                    <select id="filtroGenero" onchange="filtrarPorGenero()">
+                        <option disabled selected>Categoria...</option>
+                        <option value="Todos">Todos</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Ação">Ação</option>
+                        <option value="Mistério">Mistério</option>
+                        <option value="Suspense">Suspense</option>
+                        <option value="Fantasia">Fantasia</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Shounen">Shounen</option>
+                        <option value="Comédia">Comédia</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container" id="animes_apareca">
+                
+            </div>
+        </section>
+
+        <a href="https://www.twitch.tv/bomba4512" target="_blank" class="bomba_icone">
+            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/7b49844d-4f87-4659-9dd3-bd431b206b94-profile_image-150x150.png">
+        </a>
+    </main>
+
+    <footer>
+        <div>
+            <p>© 2024 Bomba4512. Todos os direitos reservados.</p>
+            <b>Você pode entrar em contato pelo email:<a href="mail:ovictormatoscontato@gmail.com" target="_blank"> ovictormatoscontato@gmail.com</a></b>
+        </div>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
